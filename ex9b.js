@@ -23,12 +23,4 @@ for (let i=0;i<palabraDelDia.length;i++) {
     // Tu código a partir de aquí, dentro del bucle
 }
 
-// Resultado esperado:
-
-/**
- * "La letra b es correcta"
- * "La letra u es correcta"
- * "La letra e es correcta, pero se encuentra en una posición diferente"
- * "La letra n NO es correcta"
- * "LA letra o NO es correcta"
- */
+// Resultado esperado: https://oscarm.tinytake.com/msc/ODc4MzY1N18yMjIwMzg5Mg
