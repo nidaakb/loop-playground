@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Adivina la palabra secreta</h1>
+    <p id="mensaje"></p>
+    <script>
+        /**
+         * Escribe un bucle WHILE, que pida de manera indefinida al usuario una palabra secreta contenida en la variable 'palabraSecreta'.
+         * 
+         * BONUS: Haz que tu código funcione independientemente de si el usuario escribe la palabra secreta en mayúsuclas o en minúsculas
+         */
+
+        let palabra;
+        let palabraSecreta = "cervatillo";
+
+        // Modificar a partir de aquí
+
+        palabra = prompt("Escribe la palabra secreta");
+
+        // NO TOCAR a partir de aquí
+
+        document.querySelector("#mensaje").textContent = "Enhorabuena! Has adivinado la palabra secreta";
+
+    </script>
+</body>
+
+</html>
