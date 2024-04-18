@@ -27,4 +27,12 @@
 let hora_actual = 8;
 let hora_dormir = 24;
 
+for (let i = hora_actual; i <= hora_dormir; i++) {
+    if (i == hora_actual) {
+        console.log("A las " + hora_actual +  ", el sim se despierta.");
+    }
+}
+
+
+
 // Resultado esperado aproximado: https://oscarm.tinytake.com/msc/ODc4NTEzNl8yMjIwNTc2Nw

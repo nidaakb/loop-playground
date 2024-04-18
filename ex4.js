@@ -9,11 +9,13 @@
  *
  * Piensa bien que debes cambiar. Solo has de hacer una modificación para conseguirlo.
  * Es OBLIGATORIO usar la variable 'numeroVeces' en el bucle!
+ * 
+ * cambiar la "i" de 0 a 5. 
  */
 
 let numeroVeces = 5;
 
-for (let i = 0; i < 10; i++) {
+for (let i = 5; i < 10; i++) {
   console.log("Ejecuto!");
 }
 

@@ -13,13 +13,17 @@
  * "Estoy en la iteración 9"
  *
  * Piensa qué variable guarda la iteración en la que nos encontramos
+ * 
+ * la variable "i" es la que guarda el numero de iteracion por lo tanto en el "console.log" deberiamos sacar la "i" hacia fuera.
  *
  */
 
 for (var i = 0; i < 10; i++) {
   // aquí tu código
-  console.log("Estoy en la iteración i");
+  console.log("Estoy en la iteración " + i);
 }
+
+
 
 /**
  * Resultado esperado: https://oscarm.tinytake.com/msc/ODc4MzU3OV8yMjIwMzgxMg
