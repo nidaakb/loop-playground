@@ -8,7 +8,7 @@ for (let i = 1; i <= 10; i++) {
     console.log("3 * " + i + " = " + 3 * i);
 }
 
-// Mostrar la tabla de multiplicar del 3
+// Mostrar la tabla de multiplicar del 4
 console.log("Tabla de multiplicar del 4:");
 for (let i = 1; i <= 10; i++) {
     console.log("4 * " + i + " = " + 4 * i);
